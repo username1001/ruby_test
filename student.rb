@@ -5,3 +5,7 @@ class Student
     puts "Hi, I'm #{first_name}!"
   end
 end
+
+frank = Student.new
+frank.first_name = "Frank"
+frank.introduction
